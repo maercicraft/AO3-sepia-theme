@@ -1,3 +1,4 @@
+//HOMEPAGE SPLASH
 .splash .module h3 {
   color: #78432D;
   font-variant: serif;
@@ -7,6 +8,7 @@
   background: none;
 }
 
+//POPUP BOXES
 #modal {
   border: 2px #78432D;
   background: #FFE4C4;
@@ -28,6 +30,7 @@ div#share ul {
   box-shadow: none;
 }
 
+//INBOX 
 .unread,
 .thread .even,
 .statistics .index li:nth-of-type(2n) {
@@ -44,12 +47,14 @@ span.unread {
   border-bottom: none;
 }
 
+//LOGO
 #header .heading a {
   padding-left: 0.5em;
   font-variant: serif;
   color: #990000;
 }
 
+//TOPMENU
 #greeting .icon img {
   box-shadow: none;
   border: 2px solid #78432D;
@@ -81,6 +86,7 @@ a.tag:hover {
   border: 2px solid #78432D;
 }
 
+//MENUS
 #header .primary {
   background: #94a189;
   border-bottom: 5px solid #78432D;
@@ -136,6 +142,7 @@ ul.expandable.secondary {
   background: #FFE4C4;
 }
 
+//ERRORS 
 p.notice,
 p.note,
 .notice,
@@ -156,6 +163,7 @@ p.muted.notice {
   display: none;
 }
 
+//DASHBOARD 
 #dashboard .actions a,
 #dashboard .actions a:visited {
   background: #FFE4C4;
@@ -198,6 +206,7 @@ p.muted.notice {
   border: 2px solid #78432D;
 }
 
+//BUTTONS
 .actions a,
 .action,
 input[type="file"],
@@ -241,6 +250,7 @@ form.search input {
   font-family: serif;
 }
 
+//HEADERS
 h1,
 h2,
 h3,
@@ -252,6 +262,7 @@ h6,
   color: #78432D;
 }
 
+//FOOTERS
 #footer {
   border-top: 5px solid #78432D;
 }
@@ -275,6 +286,7 @@ h6,
   background: #78432D;
 }
 
+//COMMENTS
 div.comment,
 li.comment {
   border: 2px solid #78432D;
@@ -295,6 +307,7 @@ div.icon .thread .even {
   background: #FFE4C4 !important;
 }
 
+//TAGS
 h5.fandoms {
   max-height: 10em;
   overflow-y: auto;
@@ -426,6 +439,7 @@ s h5.fandoms.heading {
   color: #78432D;
 }
 
+//READING EXPERIENCE
 #workskin {
   max-width: 30em;
   padding: 1.5em 0.8em;
