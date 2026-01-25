@@ -13,8 +13,8 @@
 
 #modal {
     border: 5px #78432D ;
-    background: #FFEBCD ;
-    color: #76826c ; 
+    background: #FFE4C4 ;
+    color: #94a189 ; 
     border-radius: 5px;
 }
 
@@ -28,7 +28,7 @@ div#share ul {
 
 #modal .footer .action.modal-closer {
     background: #78432D ; 
-    color: #FFEBCD  ;
+    color: #FFE4C4  ;
     border: 2px solid #78432D ;
     box-shadow: none;
 }
@@ -45,7 +45,7 @@ div#share ul {
 }
 
 span.unread {
-    background: #FFEBCD;
+    background: #FFE4C4;
     color: #78432D;
     border: 2px solid #78432D;
 }
@@ -90,7 +90,7 @@ span.unread {
 #greeting li a {
     font-variant: serif;
     color: #78432D !important;
-    background: #FFEBCD ;
+    background: #FFE4C4 ;
     border: 2px solid #78432D ;
     box-shadow: none;
     border-radius: 5px;
@@ -98,21 +98,21 @@ span.unread {
 }
 
 #greeting .dropdown .menu {
-    background: #C9AE90 !important;
+    background: #FFE4C4 !important;
     border-radius: 5px;
 }
 
 #greeting .dropdown .menu a,
 #greeting li a:hover {
     background: #94a189 !important;
-    color: #FFEBCD !important;
+    color: #FFE4C4 !important;
     border-radius: 5px;
 }
 
 #greeting .dropdown .menu a:hover,
 a.tag:hover {
     font-variant: serif;
-    color: #C9AE90 !important;
+    color: #FFE4C4 !important;
     background: #78432D  !important;
     border: 2px solid #78432D ;
     box-shadow: none;
@@ -145,7 +145,7 @@ a.tag:hover {
 }
 
 #header .menu {
-    background: #C9AE90 ;
+    background: #FFE4C4 ;
     box-shadow: none;
     width: 20em;
     border-radius: 5px;
@@ -154,7 +154,7 @@ a.tag:hover {
 
 #header .primary li a {
     font-variant: serif;
-    color: #C9AE90 !important;
+    color: #FFE4C4 !important;
     background: #78432D ;
     border: 2px solid #94a189 ;
     box-shadow: none;
@@ -163,7 +163,7 @@ a.tag:hover {
 
 #header .dropdown .menu li:hover a {
     font-variant: serif;
-    color: #C9AE90 !important;
+    color: #FFE4C4 !important;
     background: #78432D ;
     box-shadow: none;
     border-radius: 5px;
@@ -171,7 +171,7 @@ a.tag:hover {
 
 #header .dropdown:hover a {
     background: #94a189 ;
-    color: #FFEBCD !important;
+    color: #FFE4C4 !important;
     border: 2px solid #78432D !important;
     border-radius: 5px;
 }
@@ -192,7 +192,7 @@ ul.expandable.secondary {
 /* page wrapper - the background background of pages */
 
 #outer.wrapper {
-    background: #FFEBCD ;
+    background: #FFE4C4 ;
 }
 
 /* NOTICES AND ERRORS */
@@ -227,7 +227,7 @@ display: none;
 /* whether the dashboard link has been visited or not, it will always have this colour scheme and font */
 #dashboard .actions a,
 #dashboard .actions a:visited {
-    background: #FFEBCD ;
+    background: #FFE4C4 ;
     border: 1px solid #78432D ;
     color: #78432D !important;
     font-variant: serif;
@@ -238,7 +238,7 @@ display: none;
 #dashboard .current,
 #main .current {
     background: #94a189 ;
-    color: #FFEBCD ;
+    color: #FFE4C4 ;
     font-variant: serif;
     border: 2px solid #78432D ;
 }
@@ -249,7 +249,7 @@ display: none;
     box-shadow: none;
     text-shadow: none;
     border: 2px solid #78432D ;
-    background: #FFEBCD ;
+    background: #FFE4C4 ;
     color: #78432D ;
     font-weight: bold;
 }
@@ -259,7 +259,7 @@ display: none;
 #dashboard.own,
 #dashboard,
 #dashboard ul {
-    background: #EDD7B9 ;
+    background: #FFE4C4 ;
     border-radius: 5px;
 }
 
@@ -292,7 +292,7 @@ button,
 #main .actions label {
     background: #AE8F72 ;
     font-variant: serif;
-    color: #FFEBCD;
+    color: #FFE4C4;
     border: 2px solid #78432D ;
 }
 
@@ -324,7 +324,7 @@ input[type="submit"]:focus,
 #main .action:hover {
     box-shadow: none;
     text-shadow: none;
-    background: #FFEBCD ;
+    background: #FFE4C4 ;
     color: #78432D ;
 }
 
@@ -360,18 +360,18 @@ h6,
 }
 
 #footer h4.heading {
-    color: #FFEBCD ;
+    color: #FFE4C4 ;
     font-variant: serif;
     font-size: 120%;
 }
 
 #footer,
 #footer a {
-    color: #FFEBCD ;
+    color: #FFE4C4 ;
 }
 
 #footer a:hover {
-    color: #FFEBCD ;
+    color: #FFE4C4 ;
     background: #78432D ;
 }
 
@@ -390,7 +390,7 @@ li.comment {
 .comment h4.byline,
 .comment h4.byline a {
     background: #78432D ;
-    color: #FFEBCD !important;
+    color: #FFE4C4 !important;
 }
 
 img.icon,
@@ -400,29 +400,10 @@ div.icon {
 
 /* make the comments all have the same colour instead of every other comment being different */
 .thread .even {
-    background: #FFEBCD !important;
+    background: #FFE4C4 !important;
 }
 
 /* WORKS IN LIST */
-
-/* make the sections for fandoms, summary, and tags each have a maximum height and be scrollable if they exceed that height */
-
-h5.fandoms {
-    max-height: 10em;
-    overflow-y: auto;
-}
-
-.blurb ul.tags {
-    max-height: 18em;
-    overflow-y: auto;
-    padding: 0.375em;
-}
-
-blockquote.summary {
-    max-height: 28em;
-    overflow-y: auto;
-    padding: 0.375em;
-}
 
 /* background and border for each separate work in a page of them */
 
@@ -435,31 +416,6 @@ li.blurb {
 blockquote.summary,
 blockquote.userstuff {
     color: #78432D;
-}
-
-/* remove readerfic */
-
-.blurb:has(a[href*="*s*You/works"]),
-.blurb:has(a[href*="*s*Reader/works"]),
-.blurb:has(a[href*="/tags/Reader*s*"]),
-.blurb:has(a[href*="/tags/You*s*"]),
-.blurb:has(a[href*="*a*%20You/works"]),
-.blurb:has(a[href*="*a*%20Reader/works"]),
-.blurb:has(a[href*="/tags/Reader%20*a*"]),
-.blurb:has(a[href*="/tags/You%20*a*"]),
-.blurb:has(a[href*="/tags/Me%20*a*"]),
-.blurb:has(a[href*="*a*%20Me/works"]),
-.blurb:has(a[href*="/tags/Me*s*"]),
-.blurb:has(a[href*="*s*Me/works"]),
-.blurb:has(a[href*="%20x%20Reader/works"]),
-.blurb:has(a[href*="Reader%20x%20"]),
-.blurb:has(a[href*="/tags/Y*s*n%20x%20"]),
-.blurb:has(a[href*="%20x%20y*s*n/works"]),
-.blurb:has(a[href$="/tags/Reader-Insert/works"]),
-.blurb:has(a[href$="/tags/Y*s*n%20-%20Character/works"]),
-.blurb:has(a[href$="/tags/y*s*n/works"]),
-.blurb:has(a[href$="/tags/you%20-%20Freeform/works"]) {
-    display: none !important;
 }
 
 /* title and author link colours */
@@ -545,19 +501,6 @@ li.relationships+li.freeforms:before {
     font-weight: bold;
 }
 
-/* give all tags a border and a darker background, and remove the commas between them */
-
-a.tag,
-a.tag:visited,
-.favorite a.tag {
-    display: inline-block;
-    padding: 4px 7px;
-    margin: 4px 0px;
-    border: 2px solid #78432D ;
-    background: #EDD7B9 ;
-    border-radius: 5px;
-}
-
 a.tag {
     color: #78432D;
 }
@@ -567,16 +510,16 @@ a.tag:visited {
 }
 
 .commas li:after {
-    content: "";
+    color: #78432D;
 }
 
 .relationship a.tag,
 li.relationships a.tag {
-    background: #C9AE90 ;
+    background: #FFE4C4 ;
 }s
 
 h5.fandoms.heading {
-    background: #EDD7B9 !important ;
+    background: #FFE4C4 !important ;
     color: #78432D ;
     border-radius: 5px;
 }
@@ -605,14 +548,14 @@ p.kudos {
 /* in a user's profile page */
 
 dl.meta {
-    background: #FFEBCD ;
+    background: #FFE4C4 ;
     border: 2px solid #78432D ;
     border-radius: 5px;
 }
 
 table,
 th {
-    background: #EDD7B9;
+    background: #FFE4C4;
     border: solid #78432D;
 }
 
@@ -621,12 +564,12 @@ th {
 fieldset {
     border: 2px solid #78432D ;
     border-radius: 5px;
-    background: #EDD7B9 ;
+    background: #FFE4C4 ;
 }
 
 fieldset dl,
 fieldset fieldset {
-    background: #FFEBCD ;
+    background: #FFE4C4 ;
     color: #78432D !important;
     font-variant: serif;
     border: 2px solid #78432D ;
@@ -639,7 +582,7 @@ form.search input[type="text"] {
 }
 
 form dl {
-    background: #EDD7B9;
+    background: #FFE4C4;
     border: #78432D;
     border-radius: 5px;
 }
@@ -649,7 +592,7 @@ form dl {
 form.verbose legend,
 .verbose form legend,
 .dynamic form {
-    background: #FFEBCD ;
+    background: #FFE4C4 ;
     border: 2px solid #78432D ;
     color: #78432D ;
     font-variant: serif;
@@ -657,13 +600,13 @@ form.verbose legend,
 }
 
 label {
-    background: #EDD7B9 ;
+    background: #FFE4C4 ;
     padding: 0.3em;
     border-radius: 5px;
 }
 
 form dt {
-    border-bottom: 1px solid #C9AE90;
+    border-bottom: 1px solid #FFE4C4;
 }
 
 .filters h4 {
@@ -678,7 +621,7 @@ form dt {
 
 span.question {
     background: #78432D ;
-    color: #FFEBCD ;
+    color: #FFE4C4 ;
     box-shadow: none;
     border: 2px solid #78432D ;
 }
@@ -695,11 +638,11 @@ select {
 /* fixing background on certain areas, eg making a bookmark */
 
 .toggled form{
-    background: #EDD7B9 ;
+    background: #FFE4C4 ;
 }
 
 dl.index dd {
-    background: #FFEBCD;
+    background: #FFE4C4;
 }
 
 /* LISTBOXES */
@@ -720,7 +663,7 @@ fieldset fieldset.listbox {
 .listbox h3 a,
 .listbox h3.heading a:visited,
 .listbox h5.heading {
-    color: #C9AE90;
+    color: #FFE4C4;
 }
 
 listbox h4.heading a:visited {
@@ -728,8 +671,8 @@ listbox h4.heading a:visited {
 }
 
 .listbox .index {
-    background: #FFEBCD ;
-    box-shadow: #C9AE90 !important;
+    background: #FFE4C4 ;
+    box-shadow: #FFE4C4 !important;
 }
 
 .media .listbox,
@@ -802,12 +745,12 @@ div#bookmark-form.post.bookmark {
 
 dt.child,
 dt.parent {
-    background: #EDD7B9;
+    background: #FFE4C4;
     border-radius: 5px;
 }
 
 /* skins */
 
 .picture .header {
-    border-bottom: 1px solid #EDD7B9;
-      }
+    border-bottom: 1px solid #FFE4C4;
+}
