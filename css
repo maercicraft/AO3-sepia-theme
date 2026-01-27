@@ -141,7 +141,7 @@ a.tag:hover {
 
 
 #header a {
-    font-size: 110%;
+    font-size: 100%;
 }
 
 #header .menu {
@@ -214,11 +214,6 @@ ul.notes,
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
-}
-
-/*remove the notice that you have any users muted in the archive, thanks to tumblr user ao3commentoftheday*/
-p.muted.notice {
-display: none;
 }
 
 /* DASHBOARD */
@@ -304,7 +299,7 @@ input[type="radio"]+label {
 /* fix font in tags and in some buttons */
 body {
     font-family: serif;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 /* fix font in other buttons */
@@ -362,7 +357,7 @@ h6,
 #footer h4.heading {
     color: #FFE4C4 ;
     font-variant: serif;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 #footer,
@@ -753,4 +748,4 @@ dt.parent {
 
 .picture .header {
     border-bottom: 1px solid #FFE4C4;
-        }
+}
