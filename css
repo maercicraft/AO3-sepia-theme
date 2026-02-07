@@ -9,7 +9,7 @@
     background: none;
 }
 
-/* POPUP DIALOGUE BOXES, eg the share work popup */
+/* POPUP BOXES */
 
 #modal {
     border: 5px #78432D ;
@@ -34,8 +34,6 @@ div#share ul {
 }
 
 /* INBOX */
-
-/* just fixing the colours and stuff! */
 
 .unread,
 .thread .even,
@@ -64,9 +62,7 @@ span.unread {
     color: #990000;
 }
 
-/* GREETING MENUS */
-/* this is the stuff at the top right of every page, with your logo and post new and log out */
-
+/* GREETING MENU */
 
 #greeting .icon img {
     box-shadow: none;
@@ -123,9 +119,7 @@ a.tag:hover {
     width: 12em;
 }
 
-/* HEADER BAR MENUS */
-/* this is for the bar below the AO3 logo, with all the navigation menus */
-
+/* HEADER */
 
 #header .primary {
     background: #94a189 ;
@@ -176,26 +170,48 @@ a.tag:hover {
     border-radius: 5px;
 }
 
-/* menu font for all menus */
+/* FONTS*/
 
 .dropdown {
     font-family: serif;
 }
 
-/* menu for downloading works */ 
 ul.expandable.secondary {
     background: #94a189;
     border: none;
     border-radius: 5px;
 }
 
-/* page wrapper - the background background of pages */
+body {
+    font-family: serif;
+    font-size: 100%;
+}
+
+input {
+    font-family: serif;
+    padding: 5px;
+    background: #FFF1DC ;
+    border-radius: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+    font-variant: serif;
+    color: #78432D ;
+}
+
+/* WRAPPER */
 
 #outer.wrapper {
     background: #FFE4C4 ;
 }
 
-/* NOTICES AND ERRORS */
+/* NOTICES */
 
 p.notice,
 p.note,
@@ -217,9 +233,7 @@ ul.notes,
 }
 
 /* DASHBOARD */
-/* this is the set of menus on the left-hand side of the screen when you're on your user page */
 
-/* whether the dashboard link has been visited or not, it will always have this colour scheme and font */
 #dashboard .actions a,
 #dashboard .actions a:visited {
     background: #FFE4C4 ;
@@ -228,7 +242,6 @@ ul.notes,
     font-variant: serif;
 }
 
-/* whichever dashboard link you are currently at, it will have this colour scheme and font instead of the standard */
 .current,
 #dashboard .current,
 #main .current {
@@ -238,7 +251,6 @@ ul.notes,
     border: 2px solid #78432D ;
 }
 
-/* if you're hovering over a dashboard link it'll look like this */
 #dashboard .actions a:hover,
 #dashboard .actions a:focus {
     box-shadow: none;
@@ -248,8 +260,6 @@ ul.notes,
     color: #78432D ;
     font-weight: bold;
 }
-
-/* dashboard decoration */
 
 #dashboard.own,
 #dashboard,
@@ -269,7 +279,6 @@ ul.notes,
 }
 
 /* BUTTONS */
-/* input is a type of button and a type of field, and textarea is a place where you can input text content. approximately. */
 
 .actions a,
 .action,
@@ -296,21 +305,6 @@ input[type="radio"]+label {
     padding-left: 0.3em
 }
 
-/* fix font in tags and in some buttons */
-body {
-    font-family: serif;
-    font-size: 100%;
-}
-
-/* fix font in other buttons */
-input {
-    font-family: serif;
-    padding: 5px;
-    background: #FFF1DC ;
-    border-radius: 5px;
-}
-
-/* if you're hovering over a button link, it'll look like this instead of the standard */
 input[type="submit"]:hover,
 input[type="submit"]:focus,
 #main .actions a:hover,
@@ -329,19 +323,6 @@ form.search input {
     border-radius: 0.5em;
     font-family: serif;
     margin-top: 5px;
-}
-
-/* HEADING TEXT */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.heading {
-    font-variant: serif;
-    color: #78432D ;
 }
 
 /* FOOTER */
@@ -393,14 +374,11 @@ div.icon {
     border-radius: 5px;
 }
 
-/* make the comments all have the same colour instead of every other comment being different */
 .thread .even {
     background: #FFE4C4 !important;
 }
 
-/* WORKS IN LIST */
-
-/* background and border for each separate work in a page of them */
+/* LISTS */
 
 li.blurb {
     border: 2px solid #78432D ;
@@ -413,7 +391,7 @@ blockquote.userstuff {
     color: #78432D;
 }
 
-/* title and author link colours */
+/* LINKS */
 
 h4.heading a {
     color: #990000 !important;
@@ -425,8 +403,6 @@ h4.heading a:visited {
 
 
 /* TAGS */
-
-/* formatting the section that all the tags of a work are in */
 
 .blurb .relationships {
     background: none;
@@ -451,8 +427,6 @@ li.warnings+li.freeforms,
 li.relationships+li.freeforms {
     clear: left;
 }
-
-/* give labels to each tag type */
 
 ul.tags li.warnings:first-child:before {
     content: "Archive Warnings: ";
@@ -519,9 +493,8 @@ h5.fandoms.heading {
     border-radius: 5px;
 }
 
-/* WORK TEXT */
+/* READING */
 
-/* make text width on works have a maximum width while not being too narrow on mobile, and change the font size and style and colour */
 #workskin {
     max-width: 30em;
     padding: 1.5em 0.8em;
@@ -531,7 +504,6 @@ h5.fandoms.heading {
     line-height: 1.6;
 }
 
-/* fix font in beginning and end notes etc on a work */
 blockquote {
     font-family: serif;
 }
@@ -540,7 +512,7 @@ p.kudos {
     color: #78432D !important;
 }
 
-/* in a user's profile page */
+/* PROFILE */
 
 dl.meta {
     background: #FFE4C4 ;
@@ -582,8 +554,6 @@ form dl {
     border-radius: 5px;
 }
 
-/* section titles and labels in forms */
-
 form.verbose legend,
 .verbose form legend,
 .dynamic form {
@@ -612,7 +582,14 @@ form dt {
     border-radius: none !important;
 }
 
-/* help symbol */
+select {
+    background: #FFF1DC ;
+    border: 1px solid #78432D !important;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* HELP */
 
 span.question {
     background: #78432D ;
@@ -621,16 +598,7 @@ span.question {
     border: 2px solid #78432D ;
 }
 
-/* drop-down menu options in forms */
-
-select {
-    background: #FFF1DC ;
-    border: 1px solid #78432D !important;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-/* fixing background on certain areas, eg making a bookmark */
+/* BACKROUNDS */
 
 .toggled form{
     background: #FFE4C4 ;
@@ -683,7 +651,7 @@ ol.index.group a:visited {
     color: #5A5A5A;
 }
 
-/* keep large main areas of pages from being able to get too wide */
+/*SPACING */
 
 div.user.pseud.home,
 div.user.home,
@@ -710,13 +678,11 @@ div#main.works-index.dashboard.filtered.region {
     max-width: 80em;
 }
 
-/* keep buttons on your user page low enough that they won't overlap with user icon on mobile */
-
 .home .header ul.navigation.actions {
     margin-top: 3em;
 }
 
-/* bookmarks */
+/* BOOKMARKS */
 
 .bookmark .user {
     border: none;
@@ -728,7 +694,7 @@ div#bookmark-form.post.bookmark {
     background: #FFF1DC
 }
 
-/* history */
+/* HISTORY */
 
 .reading h4.viewed {
     background: #94a189;
@@ -736,7 +702,7 @@ div#bookmark-form.post.bookmark {
     padding: 0.5em;
 }
 
-/* related works */
+/* FAMILY TREE */
 
 dt.child,
 dt.parent {
@@ -744,7 +710,7 @@ dt.parent {
     border-radius: 5px;
 }
 
-/* skins */
+/* SKINS */
 
 .picture .header {
     border-bottom: 1px solid #FFE4C4;
